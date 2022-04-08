@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.color{
+    width: 100%;
+    display: flex;
+    background-color: #FFD200;
+}
+
+.head{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.head-item{
+    display: inline-block;
+    list-style: none;
+    font-size: 9pt;
+    font-weight: 700;
+    padding: 5px 0;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.head-item a{
+    text-decoration: none;
+    color: #7A6266;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    /* text-align: center; */
+}
+
+.logo{
+    width: 200px;
+    margin: 20px 0;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.search_div{
+    display: inline-block;
+    background-color: #f1f1f1!important;
+    text-align: right;
+    border-radius: 10px;
+}
+.input{
+    width: 300px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    float: left;
+}
+.search_div .search{
+    padding-top:14px;
+    font-size: 18pt;
+    color:blue;
+    font-weight: 900;
+    margin-right: 15px;
+}
+.icons{
+    float: right;
+}
+.icons .icon_heart, .icons .icon_bag{
+    font-size: 20pt;
+    color: blue;
+    margin-right: 13px;
+}
+.icons .icon_text{
+    margin-right: 72px;
+}
+
+
+
+/*       Categories       */
+
+.dropbtn {
+    background-color: #F1F1F1;
+    /* color: white; */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #F1F1F1;
+}
+  
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+  
+#myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 7px 16px;
+    overflow: scroll;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover{
+    background-color: #ddd;
+}
+  
+.show {
+    display: block;
+}
+
+.item-list{
+    display: inline-block;
+    list-style: none;
+    margin:  0 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.item-list:hover{
+    background-color: #F1F1F1;
+}
+
+
+
+/*       Footer styles      */ 
+.colm1,
+.colm2,
+.colm3{
+    flex-direction: row;
+    flex: 32%;
+    max-width: 32%;
+    display: inline-block;
+    margin-right: 2px;
+}
+.social{
+    width: 60px;
+    text-align: center;
+    padding:18px;
+    border-radius: 15px;
+    background-color:hsla(0,0%,79.6%,.23);
+    margin-left: 5px;
+}
+.social .fa-youtube,
+.fa-facebook-f,
+.fa-instagram,
+.fa-tiktok,
+.fa-telegram{
+    font-size: 15pt;
+    color: rgba(133, 132, 132, 0.994);
+    font-weight: 900;
+    transition: 1s all ease;
+}
+.social:hover{
+    color: rgba(78, 77, 77, 0.994);
+    background-color: #ffd200;
+    transition: .5s;
+}
+.social:hover .fa-youtube{
+    color: rgba(201, 31, 31, 0.994);
+}
+.social:hover .fa-facebook-f{
+    color: blue;
+}
+.social:hover .fa-instagram{
+    color:rgb(219, 51, 51);
+}
+.social:hover .fa-tiktok{
+    color: rgba(27, 27, 70, 0.963);
+}
+.social:hover .fa-telegram{
+color: rgb(69, 69, 241);
+}
+.app_store_img img{
+    width:31%;
+}
+.colm2_div{
+    width: 70%;
+    margin: 12% auto;
+    float: right;
+}
+.menus a{
+    text-decoration: none;
+    color:#606266;
+    font-family: sans-serif;
+    font-size: 12pt;
+    line-height: 30px;
+}
+.colm3{
+    text-align: center;
+}
+.col3_svg_contact{
+    text-align: center;
+    display: flex;
+    margin-left: 39%;
+    margin-top: 9%;
+}
+.aloqa_svg, .aloqa_text{
+    display: inline-block;
+    flex: 50%;
+    max-width: 50%;
+}
+.colm3 h5{
+    padding-top: 21%;
+    font-size:12pt;
+    color: #606266;
+    font-weight: 600;
+}
+.aloqa_text a{
+    text-decoration: none;
+    color:#ffd200 !important;
+}
+.aloqa_text a:hover{
+    border-bottom:1px solid rgba(0, 0, 0, 0.353);
+}
+.aloqa_text{
+    font-size: 10pt;
+    text-align: left;
+    font-weight: 700;
+}
+.qism2 ul{
+    float: right;
+}
+.qism2 ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+.foot_img1{
+    width: 60%;
+}
+.foot_img2, .foot_img3{
+    width: 100%;
+}
+.footer_bottom{
+    margin-top: 10% !important;
+}
