@@ -14,30 +14,38 @@
     
 </head>
 <body>
+   
     <div class="header">
-        <div class="color">
-            <div class="container">
-                <ul class="head">
-                    <li class="head-item"><ion-icon name="eye-outline"></ion-icon><a href="#">Горячие предложения</a> </li>
-                    <li class="head-item"><ion-icon name="star-outline"></ion-icon><a href="#">Популярные категории</a> </li>
-                    <li class="head-item"><ion-icon name="bag-handle-outline"></ion-icon><a href="#">Продавай на Zoodmall</a></li>
-                </ul>
-
-                <form action="/action_page.php" style="display: inline-block; float: right; margin-right: 30px;">
-                    <select name="cars" id="cars" style="border: none; background-color: #FFD200; outline: none; font-size: 9pt; font-weight: 700;">
-                        <option value="RU" style="display: inline-block;">RU</option>
-                        <option value="UZ" style="display: inline-block;">UZ</option>
-                        <option value="EN" style="display: inline-block;">EN</option>
-                          
-                    </select>
-
-                        <ion-icon name="person-outline"></ion-icon> <span style="font-size: 9pt; font-weight: 700;">Войти</span>
-                </form>
-               
-                
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="color">
+                    <div class="container">
+                        <ul class="head">
+                            <li class="head-item"><ion-icon name="eye-outline"></ion-icon><a href="#">Горячие предложения</a> </li>
+                            <li class="head-item"><ion-icon name="star-outline"></ion-icon><a href="#">Популярные категории</a> </li>
+                            <li class="head-item"><ion-icon name="bag-handle-outline"></ion-icon><a href="#">Продавай на Zoodmall</a></li>
+                        </ul>
+        
+                        <form action="/action_page.php" style="display: inline-block; float: right; margin-right: 30px;">
+                            <select name="cars" id="cars" style="border: none; background-color: #FFD200; outline: none; font-size: 9pt; font-weight: 700;">
+                                <option value="RU" style="display: inline-block;">RU</option>
+                                <option value="UZ" style="display: inline-block;">UZ</option>
+                                <option value="EN" style="display: inline-block;">EN</option>
+                                  
+                            </select>
+        
+                                <ion-icon name="person-outline"></ion-icon> <span style="font-size: 9pt; font-weight: 700;">Войти</span>
+                        </form>
+                       
+                        
+                    </div>
+                </div>
             </div>
         </div>
-        <nav id="navbar" class="sticky">
+
+
+        
+        <header class="rowsearch">
             <div class="container" id="menu">
                 <img class="logo" src="https://static.zoodmall.uz/_nuxt/img/zoodmall-logo.1688b2e.svg" alt="">
                 <div class="search_div col-5 ms-5">
@@ -50,84 +58,89 @@
                     <span class="icon_text">Корзина</span>
                 </div>               
             </div>
-        </nav>
+        </header>
     </div>
 
-<!--            Kategories                              -->
+    <!--            Kategories                              -->
 
-<section class="catigories">
-    <div class="container" style="display: flex;">
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn" style="border-radius: 8px;"><ion-icon name="apps-outline" style="color: #2D3092;"></ion-icon> <span style="color: Все категории;">Все категории</span>  <ion-icon name="chevron-down-outline"></ion-icon></button>
-            <div id="myDropdown" class="dropdown-content">
-              <input type="text" placeholder="Поиск.." id="myInput" onkeyup="filterFunction()">
-              <a href="#">Мужская одежда</a>
-              <a href="#">Женская одежда</a>
-              <a href="#">Телефоны и аксуссуары</a>
-              <a href="#">Компьютеры и офис</a>
-              <a href="#">Электроника</a>
-              <a href="#">Ювилирные изделия и аксессуары</a>
-              <a href="#">Дом и сад</a>
-              <a href="#">Чемоданы и сумки</a>
-              <a href="#">Игрушки</a>
-              <a href="#">Спорт и активный отдых</a>
-              <a href="#">Кросата и здоровье</a>
-              <a href="#">Авто и мото товары</a>
-              <a href="#">Фурнитуры</a>
-              <a href="#">Наращивание волос и парики</a>
-              <a href="#">Мебель</a>
-              <a href="#">Канцелярские товары</a>
-              <a href="#">Свадбы и события</a>
+    <section class="catigories">
+        <div class="container" style="display: flex;">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn" style="border-radius: 8px;"><ion-icon name="apps-outline" style="color: #2D3092;"></ion-icon> <span style="color: Все категории;">Все категории</span>  <ion-icon name="chevron-down-outline"></ion-icon></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Поиск.." id="myInput" onkeyup="filterFunction()">
+                    <a href="#">Мужская одежда</a>
+                    <a href="#">Женская одежда</a>
+                    <a href="#">Телефоны и аксуссуары</a>
+                    <a href="#">Компьютеры и офис</a>
+                    <a href="#">Электроника</a>
+                    <a href="#">Ювилирные изделия и аксессуары</a>
+                    <a href="#">Дом и сад</a>
+                    <a href="#">Чемоданы и сумки</a>
+                    <a href="#">Игрушки</a>
+                    <a href="#">Спорт и активный отдых</a>
+                    <a href="#">Кросата и здоровье</a>
+                    <a href="#">Авто и мото товары</a>
+                    <a href="#">Фурнитуры</a>
+                    <a href="#">Наращивание волос и парики</a>
+                    <a href="#">Мебель</a>
+                    <a href="#">Канцелярские товары</a>
+                    <a href="#">Свадбы и события</a>
               
+                </div>
+            </div>
+
+            <ul class="item">
+                <li class="item-list">Женская одежда</li>
+                <li class="item-list">Мужская одежда</li>
+                <li class="item-list">Телефоны и аксессуары</li>
+                <li class="item-list">Компьютеры и офис</li>
+                <li class="item-list">Электроника</li>
+            </ul>
+          
+        </div>
+    </section>
+
+    <!---Carusel---->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" style="border-radius: 10px;">
+                        <div class="carousel-item active">
+                            <img src="./img/img1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img4.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/img3.png" class="d-block w-100" alt="...">
+                        </div>
+                  
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
-
-        <ul class="item">
-            <li class="item-list">Женская одежда</li>
-            <li class="item-list">мужская одежда</li>
-            <li class="item-list">Телефоны и аксессуары</li>
-            <li class="item-list">Компьютеры и офис</li>
-            <li class="item-list">Электроника</li>
-        </ul>
-          
+    
     </div>
-</section>
 
-<!---Carusel---->
+    <div class="cart1" style="width: 90%; height: 400px;"></div>
 
-<div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner" style="border-radius: 10px;">
-          <div class="carousel-item active">
-            <img src="./img/img1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img4.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/img3.png" class="d-block w-100" alt="...">
-          </div>
-          
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" style="width: 35px; height: 35px; border-radius: 50%; background-color: orange; margin-top: 220px; margin-left: 40px;">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" style="width: 35px; height: 35px; border-radius: 50%; background-color: orange; margin-top: 220px; margin-right: 40px;">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-
-<div class="cart1" style="width: 90%; height: 400px;"></div>
-
-<!--               Footer                     -->
+    <!--               Footer                     -->
     <div class="footer">
         <div class="container">
             <div class="d-flex row1 mt-5">
@@ -232,6 +245,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
 

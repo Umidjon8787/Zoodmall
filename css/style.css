@@ -32,10 +32,25 @@
     color: #7A6266;
 }
 
-nav{
+header{
     width: 100%;
     padding: 20px 0;
-    /* text-align: center; */
+    /* position: fixed;
+    background: rgba(168, 26, 26, 0.1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    transition: .5s ease; */
+}
+
+header.sticky{
+    background: #ffd200;
+    padding: 5px 100px;
 }
 
 .logo{
@@ -118,7 +133,7 @@ nav{
     position: absolute;
     background-color: #f6f6f6;
     min-width: 230px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 1px solid #ddd;
     z-index: 1;
 }
@@ -126,7 +141,7 @@ nav{
 .dropdown-content a {
     color: black;
     padding: 7px 16px;
-    overflow: scroll;
+    /* overflow: scroll; */
     text-decoration: none;
     display: block;
 }
@@ -264,3 +279,45 @@ color: rgb(69, 69, 241);
 .footer_bottom{
     margin-top: 10% !important;
 }
+
+@media(max-width: 992px){
+   .color{
+       display: none;
+   }
+
+   /* section{
+       display: none;
+   } */
+    /* header{
+        width: 100%;
+        padding: 20px 0;
+        position: fixed;
+        background: rgba(208, 169, 169, 0.1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999;
+        transition: .5s ease;
+    }
+
+    header.sticky{
+        background: #ffd200;
+        padding: 5px 100px;
+    } */
+}
+
+@media(max-width: 767px){
+    
+} 
+
+@media(max-width: 576px){
+    
+} 
+
+@media(max-width: 312px){
+    
+} 
