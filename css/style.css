@@ -6,7 +6,7 @@
 }
 
 .color{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     background-color: #FFD200;
 }
@@ -33,7 +33,7 @@
 }
 
 header{
-    width: 100%;
+    /* width: 100%; */
     padding: 20px 0;
     /* position: fixed;
     background: rgba(168, 26, 26, 0.1);
