@@ -35,7 +35,7 @@
 header{
     /* width: 100%; */
     padding: 20px 0;
-    /* position: fixed;
+    position: fixed;
     background: rgba(168, 26, 26, 0.1);
     top: 0;
     left: 0;
@@ -44,8 +44,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 999;
-    transition: .5s ease; */
+     z-index: 999;
+    transition: .5s ease;
 }
 
 header.sticky{
@@ -90,6 +90,48 @@ header.sticky{
     margin-right: 13px;
 }
 .icons .icon_text{
+    margin-right: 72px;
+}
+
+/* Asosiy */
+
+.logo1{
+    width: 200px;
+    margin: 20px 0;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.search_div1{
+    display: inline-block;
+    background-color: #f1f1f1!important;
+    text-align: right;
+    border-radius: 10px;
+}
+.input1{
+    width: 300px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    float: left;
+}
+.search_div1 .search{
+    padding-top:14px;
+    font-size: 18pt;
+    color:blue;
+    font-weight: 900;
+    margin-right: 15px;
+}
+.icons1{
+    float: right;
+}
+.icons1 .icon_heart1, .icons1 .icon_bag1{
+    font-size: 20pt;
+    color: blue;
+    margin-right: 13px;
+}
+.icons1 .icon_text1{
     margin-right: 72px;
 }
 
